@@ -4,6 +4,7 @@
 
 
 ##### Core scientific packages
+setuptools~=81.0.0
 jupyterlab~=4.0.8
 matplotlib~=3.8.1
 numpy~=1.26.2
@@ -11,7 +12,7 @@ pandas~=2.1.3
 scipy~=1.11.3
 
 ##### Machine Learning packages
-scikit-learn~=1.3.2
+scikit-learn~=1.6.1
 
 # Optional: the XGBoost library is only used in chapter 7
 xgboost~=2.0.2
@@ -27,13 +28,14 @@ transformers~=4.35.0
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
 
-tensorflow~=2.14.0
+tensorflow~=2.18.1
+tensorflow-metal~=1.2.0  # for Apple Silicon GPU support (optional, only on macOS)
 
 # Optional: the TF Serving API library is just needed for chapter 18.
-tensorflow-serving-api~=2.14.0  # or tensorflow-serving-api-gpu if gpu
+tensorflow-serving-api~=2.18.0  # or tensorflow-serving-api-gpu if gpu
 
-tensorboard~=2.14.1
-tensorboard-plugin-profile~=2.14.0
+tensorboard~=2.18.0
+tensorboard-plugin-profile~=2.18.1
 tensorflow-datasets~=4.9.3
 tensorflow-hub~=0.15.0
 
